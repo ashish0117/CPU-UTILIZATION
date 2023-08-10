@@ -21,8 +21,8 @@ This program Standardize the monitoring features by calculating z-scores, calcul
 4. metrices.py
 This program use Metrics that are more relevant for evaluating unsupervised anomaly detection techniques which include:
 
-1. Silhouette Score: Measures how similar an object is to its own cluster (cohesion) compared to other clusters (separation). A higher silhouette score indicates better separation and cohesive clusters.
-2. Davies-Bouldin Index: Measures the average similarity between each cluster and its most similar cluster. Lower values indicate better clustering.
+a. Silhouette Score: Measures how similar an object is to its own cluster (cohesion) compared to other clusters (separation). A higher silhouette score indicates better separation and cohesive clusters.
+b. Davies-Bouldin Index: Measures the average similarity between each cluster and its most similar cluster. Lower values indicate better clustering.
 
 These are used for KMeans, Hierarchical and for DBSCAN
 
